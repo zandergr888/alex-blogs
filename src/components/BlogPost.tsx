@@ -28,7 +28,14 @@ export function BlogPost({ post, onBack }: BlogPostProps) {
       </header>
       <div className="post-content">
         {post.content.split('\n').map((paragraph, index) => {
-          if (paragraph.startsWith('# ')) {
+          if (paragraph.startsWith('![')) {
+            // Handle markdown images: ![alt text](url)
+            const match = paragraph.match(/!\[(.*?)\]\((.*?)\)/);
+            if (match) {
+              const [, alt, src] = match;
+              return <img key={index} src={src} alt={alt} className="post-image" />;
+            }
+          } else if (paragraph.startsWith('# ')) {
             return <h1 key={index}>{paragraph.substring(2)}</h1>;
           } else if (paragraph.startsWith('## ')) {
             return <h2 key={index}>{paragraph.substring(3)}</h2>;

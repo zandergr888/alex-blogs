@@ -1,10 +1,10 @@
 [
   {
-    "id": "welcome-post",
-    "title": "Welcome to My Blog",
+    "id": "cs-371p-intro",
+    "title": "CS 371p Fall 2026: Alex Hoang",
     "date": "2026-01-19",
-    "excerpt": "This is my first blog post. Welcome to my personal blogging space!",
-    "content": "# Welcome to My Blog\n\nThis is my first blog post. I'm excited to share my thoughts and ideas with you.\n\n## What to Expect\n\nI'll be writing about various topics that interest me. Stay tuned for more content!",
-    "tags": ["welcome", "introduction"]
+    "excerpt": "Hi everyone, my name is Alexander Hoang and I'm a senior at UT about to graduate with a degree in Computer Science.",
+    "content": "Hi everyone, my name is Alexander Hoang and I'm a senior at UT and am about to graduate with a degree in Computer Science. I was born in Boston, MA and moved to Rockwall, TX at a young age. I went to Rockwall High School and competed on the tennis team and played cello in the orchestra.\n\n![On a cruise in Milford Sound, New Zealand](milford-sound.JPG)\n\n## Where would you have gone if UT hasn't accepted you?\n\nI probably would have gone to UT Dallas to save money since my home is close to there.\n\n## What would you have majored in if CS hadn't accepted you?\n\nI have always been interested in computing and would have chosen to major in UT's Electrical and Computer Engineering (ECE) major.\n\n## Why are you in this class?\n\nI'm in this class as this is one of my final classes I need to graduate from UT and fulfills one of my 8 CS upper division elective courses.\n\n## What are your expectations of this class?\n\nMy expectations of this class is that I will be expected to work hard, be diligent, and apply myself in my studies. There are a lot of assignments and a very specific structure that professor Downing has made this class to be.\n\n## How much C/C++ do you already know?\n\nI know a little bit of C++ through some endeavors in high school but haven't touched it since. And for C, I only know what was used in CS 429 and CS 439.\n\n## How did you like the first lectures?\n\nI really enjoyed the first lectures. I like how professor Downing keeps us engaged in the class, truly allowing us to learn the content. I haven't had a class like this for a very long time.\n\n## How did you feel about the cold calling?\n\nI think it contributes to learning a lot. And when we all eventually are using these things learned in class, we will actually know them, allowing us to be better engineers.\n\n## What made you happy this week?\n\nI really enjoyed getting to race the Austin International Half Marathon with many of my friends this weekend. It was an overall downhill course and getting to race alongside some of my closest friends was awesome.\n\n## What's your pick-of-the-week or tip-of-the-week?\n\nI learned about the basics of C++ this week through professor Downings class, learned ostreams, istreams, and simple printing statements and getting input.",
+    "tags": ["CS 371p", "UT Austin", "introduction"]
   }
 ]

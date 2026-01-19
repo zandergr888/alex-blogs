@@ -193,6 +193,16 @@
   margin-bottom: 1.25rem;
 }
 
+.post-image {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 8px;
+  margin: 2rem auto;
+  display: block;
+  box-shadow: var(--shadow-lg);
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .blog-header h1 {
