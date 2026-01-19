@@ -1,0 +1,10 @@
+[
+  {
+    "id": "welcome-post",
+    "title": "Welcome to My Blog",
+    "date": "2026-01-19",
+    "excerpt": "This is my first blog post. Welcome to my personal blogging space!",
+    "content": "# Welcome to My Blog\n\nThis is my first blog post. I'm excited to share my thoughts and ideas with you.\n\n## What to Expect\n\nI'll be writing about various topics that interest me. Stay tuned for more content!",
+    "tags": ["welcome", "introduction"]
+  }
+]
