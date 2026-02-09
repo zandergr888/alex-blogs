@@ -33,7 +33,9 @@ export function BlogPost({ post, onBack }: BlogPostProps) {
             const match = paragraph.match(/!\[(.*?)\]\((.*?)\)/);
             if (match) {
               const [, alt, src] = match;
-              return <img key={index} src={src} alt={alt} className="post-image" />;
+              // Use Vite's BASE_URL to handle the base path correctly
+              const imageSrc = src.startsWith('http') ? src : `${import.meta.env.BASE_URL}${src.replace(/^\//, '')}`;
+              return <img key={index} src={imageSrc} alt={alt} className="post-image" />;
             }
           } else if (paragraph.startsWith('# ')) {
             return <h1 key={index}>{paragraph.substring(2)}</h1>;
