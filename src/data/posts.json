@@ -32,6 +32,14 @@
     "tags": ["CS 371p", "UT Austin", "C++", "implicit conversion", "AI"]
   },
   {
+    "id": "cs-371p-week9",
+    "title": "CS 371p Spring 2026: Week 9",
+    "date": "2026-03-15",
+    "excerpt": "GitLab MR struggles with SSH keys, constructor lifecycle quizzes, and AI toys putting children at risk.",
+    "content": "![On a cruise in Milford Sound, New Zealand](/milford-sound.JPG)\n\n## Was there a moment of discovery, frustration, or teamwork this week that stands out?\n\nThe discovery that stuck out the most this week was learning about GitLab MRs. When I was working on the allocator project it was very frustrating making sure that everything was right. I think the part that stuck out the most to me was that I was trying to push a fork over HTTPS which failed. Then I switched to SSH then that failed, then it finally worked with the correct SSH keys. Then I finally got the push working and submitted the merge request to the professor's repo. There were multiple problems but I finally learned.\n\n## How did the collaborative quizzes help you understand the material - or show you what you still need to work on?\n\nThe quizzes as always were pretty demanding in the little time that was given. Default constructor vs. int constructor vs copy constructor, and copy assignment. It was initially very hard to understand the difference between all of these. We have to understand whether this would be construction into new memory or assignment or nothing new. The lifecycle of objects is completely traceable if you understand memory being initialized. The quizzes have again tested my ability to work well with other students. I think my main takeaway this week though would be the fact that in order to work well with others, you need to be an efficient engineer yourself.\n\n## Pick of the week\n\nAI toys have been used and deployed in many places, which includes toys for children. It is crazy to think that these experimental artificial methods are being used in places that should traditionally be tested for many many years. I mean these are the children we are talking about. They are the next generation and should be treated as such. The regulatory frameworks that govern children's products have demanded very in-depth testing, including multi-year safety evaluations. But AI systems in toys bypass this scrutiny. Parents reasonably assume that a product marketed to their children has been thoroughly tested, but this wasn't the case. Children are extremely vulnerable and cannot consent to data collection. We owe them better.",
+    "tags": ["CS 371p", "UT Austin", "C++", "GitLab", "constructors", "AI"]
+  },
+  {
     "id": "cs-371p-week8",
     "title": "CS 371p Spring 2026: Week 8",
     "date": "2026-03-08",
